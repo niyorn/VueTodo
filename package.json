@@ -1,0 +1,23 @@
+{
+  "name": "VueTodo",
+  "version": "1.0.0",
+  "description": "This is a Todo application created with the help of VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niyorn/VueTodo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niyorn/VueTodo/issues"
+  },
+  "homepage": "https://github.com/niyorn/VueTodo#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
