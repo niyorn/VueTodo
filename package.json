@@ -1,23 +1,25 @@
 {
-  "name": "VueTodo",
-  "version": "1.0.0",
-  "description": "This is a Todo application created with the help of VueJS",
-  "main": "index.js",
+  "name": "vuetodo",
+  "description": "An Todo application made with VueJS",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/niyorn/VueTodo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/niyorn/VueTodo/issues"
-  },
-  "homepage": "https://github.com/niyorn/VueTodo#readme",
   "dependencies": {
     "vue": "^2.5.16"
-  }
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
