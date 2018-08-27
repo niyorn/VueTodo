@@ -56,7 +56,7 @@
         return data;
       }
     },
-    init () {
+    created () {
       //Get all items stored in local storage
       this.todos = this.fetchItem();
     }
