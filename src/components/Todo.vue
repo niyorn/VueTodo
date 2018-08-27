@@ -16,7 +16,7 @@
     </ul>
 
     <p v-if="this.todos.length > 0">You have {{this.todos.length}} items left to do.</p>
-    <p v-else>Great job! Everthing is done</p>
+    <p v-else>Great job! Everything is done</p>
   </div>
 </template>
 
@@ -47,7 +47,7 @@
       storeItem () {
         let data = this.todos;
 
-        localStorage.setItem('Vue-Todo-Itemsnpm', JSON.stringify(data))
+        localStorage.setItem('Vue-Todo-Items', JSON.stringify(data))
       },
       fetchItem () {
         //Get data from local storage
