@@ -1,0 +1,16 @@
+{
+    "short_name": "Todo",
+    "name": "Vue Todo",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#00ddb4",
+    "display": "standalone",
+    "theme_color": "#00ddb4"
+  }
+  
